@@ -2,3 +2,12 @@ html{
     background:url(https://nucleus-production.s3.amazonaws.com/uploads/gVlEpJUPJS75N4VKOjeNErOpbi1mJiloVLX1KvDe.jpeg)
 }
 
+.navbar{
+padding:1.5rem 1rem;
+}
+
+.navbar-brand{
+    background:#4aaaa5;
+    font-family: 'Abril Fatface', cursive;
+
+}
