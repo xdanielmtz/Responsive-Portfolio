@@ -1,25 +1,40 @@
-html{
+body{
     background:url(https://nucleus-production.s3.amazonaws.com/uploads/gVlEpJUPJS75N4VKOjeNErOpbi1mJiloVLX1KvDe.jpeg)
 }
 
 .navbar{
-padding:1.5rem 1rem;
+    padding: .75rem 2rem;
 }
 
 .navbar-brand{
     background:#4aaaa5;
+    padding:1px;
     font-family: 'Abril Fatface', cursive;
-    font-size: 35px;
+    font-size: 25px;
 }
 
 .nav-item{
-font-size: 24px;
+font-size: 16px;
 }
 
 .navbar-light .navbar-brand {
     color: rgba(255, 255, 255, 0.9);
 }
 
-.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
-    color: rgba(0,0,0,.5);
+.navbar-light .navbar-nav .active>, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgb(255, 255, 255);
+}
+
+.col-sm-9{
+    height: 720px;
+    padding:25px;
+    font-size: 30px;
+    background-color:rgb(255, 255, 255);
+    font-family: 'Abril Fatface', cursive;
+    color:#4aaaa5;
+    font-weight: 100;
+}
+
+.solid {
+    border-top: 2px solid rgb(214, 214, 214);
 }
