@@ -9,5 +9,17 @@ padding:1.5rem 1rem;
 .navbar-brand{
     background:#4aaaa5;
     font-family: 'Abril Fatface', cursive;
+    font-size: 35px;
+}
 
+.nav-item{
+font-size: 24px;
+}
+
+.navbar-light .navbar-brand {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgba(0,0,0,.5);
 }
