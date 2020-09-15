@@ -1,6 +1,13 @@
+html{
+    height:100%;
+}
+
 body {
-    background: url(https://files.slack.com/files-pri/T018RA60CNP-F01B1RFE933/ignasi_pattern_s.png)
-  }
+    background: url(https://files.slack.com/files-pri/T018RA60CNP-F01B1RFE933/ignasi_pattern_s.png);
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
   
   .navbar {
     padding: 0.75rem 2rem;
@@ -112,4 +119,16 @@ body {
     border: 1px solid #ced4da;
     border-radius: .25rem;
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.container{
+    min-height: calc(100vh - 211px- 64px);
+}
+
+footer{
+    margin-top: auto;
+    text-align: center;
+    padding: 20px;
+    background-color: gray;
+    color:rgb(167, 167, 167);
 }
