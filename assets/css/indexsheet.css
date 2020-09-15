@@ -44,8 +44,8 @@ body {
   
     p{
        font-size: 16px;
-       float:right;
-       color: gray;
+       clear:both;
+       
        margin-left: 248px;
    }
 
@@ -57,11 +57,12 @@ body {
    }
 
    img{
-     float: left;
-     position: absolute;
+     float: left; 
+     margin: 15px 12px 3px 0px; 
    }
 
-   .p2{
-     margin-left: 0;
-     margin-top: 0;
-   }
+.text{
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  padding-top: 9px;
+  color: rgb(32, 32, 32);
