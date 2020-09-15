@@ -1,11 +1,16 @@
 body {
-    background: url(https://files.slack.com/files-pri/T018RA60CNP-F01B1RFE933/ignasi_pattern_s.png);
+    background: url(https://files.slack.com/files-pri/T018RA60CNP-F01B1RFE933/ignasi_pattern_s.png)
   }
   
   .navbar {
     padding: 0.75rem 2rem;
   }
   
+  .form-group {
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+}
+
   .navbar-brand {
     background: #4aaaa5;
     padding: 1px;
@@ -28,7 +33,7 @@ body {
     color: rgb(255, 255, 255);
   }
   
-  .col-sm-9 {
+  .style1{
     height: 720px;
     padding: -1px;
     font-size: 30px;
