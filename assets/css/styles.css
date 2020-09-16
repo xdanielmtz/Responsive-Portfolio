@@ -1,5 +1,13 @@
+html{
+  height: 100%;
+}
+
+
 body {
-  background: url(https://files.slack.com/files-pri/T018RA60CNP-F01B1RFE933/ignasi_pattern_s.png);
+    background: url(https://files.slack.com/files-pri/T018RA60CNP-F01B1RFE933/ignasi_pattern_s.png);
+    min-height: 100%;
+    display: flex;
+    flex-direction: column
 }
 
 .navbar {
@@ -29,7 +37,7 @@ body {
 }
 
 .col-sm-9 {
-  height: 720px;
+  height: 753px;
   padding: 25px;
   font-size: 30px;
   background-color: rgb(255, 255, 255);
@@ -52,3 +60,67 @@ body {
     height: 200px;
     background-color: rgb(194, 194, 194);
 }
+
+.greenbar{
+  margin-top: auto;
+  background-color:#4aaaa5;
+  padding:3px;
+  width: 100%;
+  margin-bottom: -35px;
+  }
+
+  footer{
+    margin-top: auto;
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(82, 80, 80);
+    color:rgb(83, 110, 119);
+  }
+
+  img{
+    height: 200px;
+    width: 200px;
+    margin-left: 87px;
+  }
+
+  .img2{
+    margin-top: 20px;
+  }
+
+  .img3{
+    margin-top: 20px;
+  }
+
+
+
+  @media screen and (min-width: 400px) {
+      img {
+        height: 120px;
+        width: 120px;
+        margin-left: 114px;
+      }
+        .img2 {
+          margin-top: 8px;
+      }
+      .img3{
+        margin-top: 8px;
+      }
+      .img1{
+        margin-bottom: 8px;
+      }
+    }
+
+    @media screen and (min-width: 768px) {
+      img {
+        height: 150px;
+        width: 150px;
+        margin-left: 58px;
+      }
+    }
+
+    @media screen and (min-width: 992px) {
+      img{
+        height: 200px;
+        width: 200px;
+        margin-left: 87px;
+      }
