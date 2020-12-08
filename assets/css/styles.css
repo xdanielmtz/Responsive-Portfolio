@@ -113,10 +113,8 @@ body {
       }
     }
 
-    @media screen and (min-width: 992px) {
+    @media screen and (max-width: 991px) {
       img{
-        height: 200px;
-        width: 200px;
-        margin-left: 87px;
+        margin-left: -13rem;
       }
     }

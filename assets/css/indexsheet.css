@@ -15,9 +15,9 @@ body {
   
   .navbar-brand {
     background: #4aaaa5;
-    padding: 1px;
+    padding: .30rem;
     font-family: "Abril Fatface", cursive;
-    font-size: .30rem;
+    font-size: 25px;
   }
   
   .nav-item {
